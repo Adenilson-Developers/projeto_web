@@ -23,6 +23,9 @@ header{
     position: fixed;
     display: none;
 }
+.sobre{
+    height: 500px;
+}
 
 .conteudo{
     width: 100%;
