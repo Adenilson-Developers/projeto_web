@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-boz-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+    
+}
+
+/*
+minha div principal
+*/
+.principal{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+header{
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+    background-color: rgb(44, 88, 105);
+    position: fixed;
+}
+
+
+figure{
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 110px;
+    color: #fff;
+}
+
+
+ul li a{
+    list-style-type: none;
+}
+
+ul li {
+    width: 230px;
+    text-align: center;
+    font-family: verdana;
+    height: 30px;
+    margin-top: 5px;
+    
+}
+ul li a{
+    color: #fff;
+    display: inline-block;
+    text-decoration:none;
+}
+ul li a:hover{
+    color:rgb(199, 231, 250);
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
+
+.logo-nome{
+    border: 5px solid #ccc;
+    border-radius: 100px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.logo-nome:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.menu{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.conteudo{
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+
+/*
+ARTICLE SOBRE, TUDO QUE ESTA NO MENU SOBRE ESTAÁ A QUI DENTRO
+*/
+.sobre{
+    height: 400px;
+}
+
+
+.sobre p{
+    font-size: 24px;
+    padding: 10px;
+    color: rgb(61, 70, 73);
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.sobre h1{
+    font-size: 40px;
+    font-family: Verdana;
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    color: rgb(44, 88, 105);
+
+}
+
+.social-icons{
+    
+    height: 100px;
+    margin-top: 60px;
+}
+
+.social-icons img {
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+.social-icons a{
+    text-decoration: none;
+}
+/*
+====================================FIM======================================================
+*/
+
+/*
+ARTICLE FORMAÇÃO, TUDO SOBRE MINHA FORMAÇÃO
+*/
+.formacao{
+    height: 300px;
+    
+}
+.formacao-ti{
+    padding: 10px;
+}
+
+.formacao-ti h1{
+    font-size: 30px;
+    padding-top: 10px;
+}
+ .formacao-ti h2{
+     padding-top: 10px;
+     font-size: 20px;
+     font-family: georgia;
+ }
+ .formacao-ti P{
+     padding-top: 10px;
+     font-size: 20px;
+     color: rgb(61, 70, 73);
+ }
+ .formacao-ti span{
+    color: rgb(61, 70, 73); 
+ }
+
+ .formacao-ti img{
+     float: right;
+     padding-top: 20px;
+     }
+ /*
+ ======================================FIM=====================================================
+ */
+
+ /*
+ MEU ARTICLE DE HABILIDADES, TODOS AS LINGUAGENS 
+ */
+
+ .habilidades{
+     height: 400px;
+     padding-top: 10px;
+     padding: 30px;
+     
+     
+ }
+ .minhas-habilidades h1{
+     font-size: 30px;
+
+ }
+ .minhas-habilidades h2{
+     font-size: 20px;
+     padding-top: 10px;
+     font-family: georgia;
+     color: rgb(61, 70, 73);
+
+ }
+
+ .minhas-habilidades img{
+    padding-top: 10px;
+    height: 50px;
+    margin-left: 30px;
+ }
+
+.workflow{
+    padding-top: 20px;
+    color: rgb(61, 70, 73);
+    font-size: 20px;
+}
+
+/*
+========================================FIM====================================================
+*/
+
+/*
+ARTICLE DO PORTFOLIO
+*/
+
+.portfolio{
+    height: 400px;
+}
+
+.portfolio H1{
+    font-size: 30px;
+    padding: 30px;
+}
+
+.meu-portfolio P{
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(44, 88, 105);
+    text-align: justify;
+    padding: 20px;
+
+}
+/*
+=======================================FIM======================================================
+*/
+

@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-boz-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    
+}
+
+.principal{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+header{
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+    background-color: rgb(44, 88, 105);
+    position: fixed;
+    display: none;
+}
+
+.conteudo{
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+.sobre h1{
+    font-size: 20px;
+    font-family: Verdana;
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    color: rgb(44, 88, 105);
+
+}
+
+
+.social-icons{
+    
+    height: 100px;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+.social-icons a{
+    text-decoration: none;
+}
+/*
+====================================FIM======================================================
+*/
+
+/*
+ARTICLE FORMAÇÃO, TUDO SOBRE MINHA FORMAÇÃO
+*/
+.formacao{
+    height: 300px;
+    
+}
+.formacao-ti{
+    padding: 10px;
+}
+
+.formacao-ti h1{
+    font-size: 30px;
+    padding-top: 10px;
+}
+ .formacao-ti h2{
+     padding-top: 10px;
+     font-size: 20px;
+     font-family: georgia;
+ }
+ .formacao-ti P{
+     padding-top: 10px;
+     font-size: 20px;
+     color: rgb(61, 70, 73);
+ }
+ .formacao-ti span{
+    color: rgb(61, 70, 73); 
+ }
+
+ .formacao-ti img{
+     float: right;
+     padding-top: 20px;
+     }
+ /*
+ ======================================FIM=====================================================
+ */
+
+ /*
+ MEU ARTICLE DE HABILIDADES, TODOS AS LINGUAGENS 
+ */
+
+ .habilidades{
+     height: 500px;
+     padding-top: 10px;
+     padding: 30px;
+     
+     
+ }
+ .minhas-habilidades h1{
+     font-size: 30px;
+
+ }
+ .minhas-habilidades h2{
+     font-size: 20px;
+     padding-top: 10px;
+     font-family: georgia;
+     color: rgb(61, 70, 73);
+
+ }
+
+ .minhas-habilidades img{
+    padding-top: 10px;
+    height: 50px;
+    margin-left: 30px;
+ }
+
+.workflow{
+    padding-top: 20px;
+    color: rgb(61, 70, 73);
+    font-size: 20px;
+}
+
+/*
+========================================FIM====================================================
+*/
+
+/*
+ARTICLE DO PORTFOLIO
+*/
+
+.portfolio{
+    height: 300px;
+}
+
+.portfolio H1{
+    font-size: 30px;
+    padding: 30px;
+}
+
+.meu-portfolio P{
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(44, 88, 105);
+    text-align: justify;
+    padding: 20px;
+
+}
+/*
+=======================================FIM======================================================
+*/
